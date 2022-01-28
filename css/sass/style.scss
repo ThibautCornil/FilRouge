@@ -4,7 +4,82 @@ $couleurTitre : #707078;
 
 /* Déclaration des mixins */
 
+*, ::before, ::after {
+    box-sizing:  border-box;
+    margin: 0;
+    padding: 0;
+}
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.premierePage {
+    background-image: url(/imageCard/fondPremiereSection.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Navigation */
+
+nav{
+    height: 70px;
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 191px;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+}
+
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    display: none;
+}
+
+nav img{
+    height: 64px;
+    width: 153px;
+}
+
+/* Présentation */
+
+.presentation{
+    width: 100%;
+    color: #fff;
+    margin-bottom: 132px;
+    padding: 0 30px;
+    text-align: center;
+}
+.presentation h1{
+    font-size: 36px;
+    margin-bottom: 19px;
+}
+
+.presentation p{
+    font-size: 26px;
+}
+
+.icone{
+    width: 428px;
+    margin-bottom: 196px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.icone .telephone, .mail, .facebook, .carte{
+    margin-right: 65px;
+}
+
+.icone .facebook, .carte, .partage{
+    margin-top: 51px;
 }
