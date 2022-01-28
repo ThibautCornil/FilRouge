@@ -6,15 +6,28 @@
   padding: 0; }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff; }
+
+h1 {
+  color: #707078;
+  font-weight: 600; }
+
+.fond {
+  position: absolute;
+  height: 934px;
+  width: auto;
+  filter: saturate(180%) contrast(120%);
+  transform: rotate(180deg);
+  z-index: -1; }
 
 .premierePage {
-  background-image: url(/imageCard/fondPremiereSection.jpg);
+  background: rgba(0, 0, 0, 0.4);
   display: flex;
+  height: 934px;
   flex-wrap: wrap;
   justify-content: center; }
 
-/* Navigation */
 nav {
   height: 70px;
   width: 100%;
@@ -40,7 +53,6 @@ nav img {
   margin-top: 35px;
   width: 60px;
   height: 42px;
-  /* background-color: teal; */
   cursor: pointer;
   transform: translate(-50%, -50%); }
 
@@ -76,7 +88,6 @@ nav img {
   top: 18px;
   transform: rotate(-135deg); }
 
-/* Présentation */
 .presentation {
   width: 100%;
   color: #fff;
@@ -84,11 +95,13 @@ nav img {
   padding: 0 30px;
   text-align: center; }
 
-.presentation h1 {
-  font-size: 36px;
+.texte-presentation {
+  font-weight: 400;
+  font-size: 37px;
   margin-bottom: 19px; }
 
 .presentation p {
+  font-weight: 400;
   font-size: 26px; }
 
 .icone {
@@ -103,5 +116,53 @@ nav img {
 
 .icone .facebook, .carte, .partage {
   margin-top: 51px; }
+
+.propos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.propos h1 {
+  margin: 60px 0 50px 0;
+  width: 100%;
+  text-align: center; }
+
+.propos .detail {
+  width: 100%;
+  color: #707078;
+  font-size: 19px;
+  margin: 72px 0 89px 0;
+  text-align: center; }
+
+.propos .lien-tripadvisor {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 21px; }
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #353353; }
+
+.texte-lien {
+  width: 100%;
+  text-align: center;
+  margin: 34px 0 17px 0;
+  font-size: 30px;
+  color: white; }
+
+.bouton {
+  font-size: 20px;
+  width: 259px;
+  height: 71px;
+  text-align: center;
+  text-decoration: none;
+  color: #55ABB7;
+  margin-bottom: 46px;
+  padding-top: 18px;
+  border-radius: 60px;
+  border: 2px solid #55ABB7; }
 
 /*# sourceMappingURL=style.css.map */
