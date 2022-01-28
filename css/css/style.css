@@ -15,8 +15,10 @@ h1 {
 
 .fond {
   position: absolute;
+  background-position: center;
+  background-size: contain;
   height: 934px;
-  width: auto;
+  width: 100vw;
   filter: saturate(180%) contrast(120%);
   transform: rotate(180deg);
   z-index: -1; }
