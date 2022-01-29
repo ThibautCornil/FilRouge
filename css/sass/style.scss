@@ -26,19 +26,9 @@ h1{
 // -----------Départ-----------
 // ----------------------------
 
-.fond{
-    position: absolute;
-    background-position: center;
-    background-size: contain;
-    height: 934px;
-    width: 100vw;
-    filter: saturate(180%) contrast(120%);
-    transform: rotate(180deg);
-    z-index: -1;
-}
 
 .premierePage {
-    background: rgba(0,0,0,0.4);    
+    background-image: url(/imageCard/fondPremiereSection.jpg);
     display: flex;
     height: 934px;
     flex-wrap: wrap;
@@ -222,4 +212,43 @@ nav img{
     padding-top: 18px;
     border-radius: 60px;
     border: 2px solid #55ABB7;
+}
+
+// ----------------------------
+// ---------Services-----------
+// ----------------------------
+
+
+.services h1{
+    margin: 60px 0 50px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.services p{
+    width: 100%;
+    color: $couleurTitre;
+    font-size: 20px;
+    margin: 11px 0 21px 0;
+    text-align: center;
+}
+
+
+.groupe-service{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.composant {
+    width: 180px;
+    height: 209px;
+    margin: 0 29px 44px 0;
+}
+
+.composant img{
+    margin-right: 29px;
+    width: 180px;
+    height: 180px;
 }
