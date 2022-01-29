@@ -10,8 +10,11 @@ body {
   background-color: #fff; }
 
 h1 {
+  width: 100%;
+  text-align: center;
   color: #707078;
-  font-weight: 600; }
+  font-weight: 600;
+  font-size: 36px; }
 
 .premierePage {
   background-image: url(/imageCard/fondPremiereSection.jpg);
@@ -115,15 +118,14 @@ nav img {
   justify-content: center; }
 
 .propos h1 {
-  margin: 60px 0 50px 0;
-  width: 100%;
-  text-align: center; }
+  margin: 60px 0 50px 0; }
 
 .propos .detail {
   width: 100%;
   color: #707078;
   font-size: 19px;
   margin: 72px 0 89px 0;
+  padding: 0 41px;
   text-align: center; }
 
 .propos .lien-tripadvisor {
@@ -172,7 +174,8 @@ nav img {
 .groupe-service {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-bottom: 102px; }
 
 .composant {
   width: 180px;
@@ -183,5 +186,52 @@ nav img {
   margin-right: 29px;
   width: 180px;
   height: 180px; }
+
+.nouveaute {
+  background-color: #353353;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+.nouveaute h1 {
+  color: white;
+  margin: 60px 0 15px 0; }
+
+.nouveaute p {
+  color: white;
+  padding: 0 70px;
+  text-align: center;
+  width: 100%; }
+
+.image-nouveaute {
+  background-color: #fff;
+  width: 380px;
+  height: 380px;
+  align-self: center;
+  margin: 59px 0 254px 0; }
+
+.newletter {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap; }
+
+label {
+  text-align: center;
+  display: block; }
+
+.newletter h1 {
+  margin: 60px 0 64px 0;
+  padding: 0 42px; }
+
+#email, #number {
+  width: 351px;
+  height: 65px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid black; }
+
+input::placeholder {
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

@@ -16,8 +16,11 @@ body {
 }
 
 h1{
+    width: 100%;
+    text-align: center;
     color: $couleurTitre;
     font-weight: 600;
+    font-size: 36px;
 }
 
 
@@ -121,6 +124,7 @@ nav img{
     font-weight: 400;
     font-size: 37px;
     margin-bottom: 19px;
+
 }
 
 .presentation p{
@@ -163,8 +167,6 @@ nav img{
 
 .propos h1{
     margin: 60px 0 50px 0;
-    width: 100%;
-    text-align: center;
 }
 
 .propos .detail{
@@ -172,6 +174,7 @@ nav img{
     color: $couleurTitre;
     font-size: 19px;
     margin: 72px 0 89px 0;
+    padding: 0 41px;
     text-align: center;
 }
 
@@ -238,6 +241,7 @@ nav img{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 102px;
 }
 
 
@@ -251,4 +255,75 @@ nav img{
     margin-right: 29px;
     width: 180px;
     height: 180px;
+}
+
+// ----------------------------
+// --------Nouveautés----------
+// ----------------------------
+
+.nouveaute{
+    background-color: $couleurFond;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nouveaute h1{
+    color: white;
+    margin: 60px 0 15px 0;
+}
+
+.nouveaute p {
+    color: white;
+    padding: 0 70px;
+    text-align: center;
+    width: 100%;
+}
+
+.image-nouveaute{
+    background-color: #fff;
+    width: 380px;
+    height: 380px;
+    align-self: center;
+    margin: 59px 0 254px 0;
+}
+
+// ----------------------------
+// --------Newletters----------
+// ----------------------------
+
+.newletter{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+label{
+    text-align: center;
+    display: block;
+}
+
+
+input {
+
+}
+
+
+
+.newletter h1{
+    margin: 60px 0 64px 0;
+    padding: 0 42px;
+}
+
+#email, #number{
+    width: 351px;
+    height: 65px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid black;
+}
+
+input::placeholder {  
+	text-align: center; 
 }
