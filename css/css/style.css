@@ -218,20 +218,115 @@ nav img {
 
 label {
   text-align: center;
-  display: block; }
+  display: block;
+  font-weight: 600; }
 
 .newletter h1 {
   margin: 60px 0 64px 0;
   padding: 0 42px; }
 
+.newletter p {
+  text-align: center; }
+
 #email, #number {
+  text-align: center;
   width: 351px;
   height: 65px;
-  margin-left: 50%;
-  transform: translateX(-50%);
+  align-self: center;
   border: 1px solid black; }
+
+#email {
+  margin-bottom: 106px; }
 
 input::placeholder {
   text-align: center; }
+
+.newletter input[type=submit] {
+  width: 351px;
+  height: 60px;
+  margin: 230px 0 137px 0;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  background-color: #55ABB7;
+  border-style: none;
+  border-radius: 5px; }
+
+.partage {
+  background-color: #353353;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+.partage h1 {
+  color: white;
+  margin: 60px 0 98px 0;
+  padding: 0 31px; }
+
+.partage p {
+  color: white;
+  font-size: 20px;
+  padding: 0 76px;
+  text-align: center;
+  width: 100%; }
+
+.qr {
+  width: 310px;
+  height: 310px;
+  margin: 23px 0 46px 0;
+  align-self: center; }
+
+.groupe-icone {
+  margin: 75px 0 104px 0;
+  height: 60px;
+  display: flex;
+  justify-content: space-evenly; }
+
+.second-sms, .second-mail {
+  margin-right: 65px; }
+
+.second-facebook {
+  margin: 0; }
+
+.visite {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+.visite h1 {
+  margin: 60px 0 15px 0; }
+
+.visite p {
+  color: #707078;
+  font-weight: 600;
+  font-size: 20px;
+  align-self: center; }
+
+.lundi {
+  margin-top: 15px; }
+
+.vendredi {
+  margin-bottom: 40px; }
+
+.visite img {
+  width: 340px;
+  height: 340px;
+  align-self: center; }
+
+.bouton-maps {
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  align-self: center;
+  padding-top: 15px;
+  width: 351px;
+  height: 65px;
+  margin: 57px 0 137px 0;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  background-color: #55ABB7;
+  border-style: none;
+  border-radius: 5px; }
 
 /*# sourceMappingURL=style.css.map */

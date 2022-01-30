@@ -107,20 +107,44 @@
         <form>
             <div>
                 <label for="email">Recevoir des notifications par Email</label>
-                <input type="email" id="email" name="user_mail" placeholder="Entrez votre adresse mail">
+                <p><input type="email" id="email" name="user_mail" placeholder="Entrez votre adresse mail"></p>
             </div>
             <div>
                 <label for="mail">Recevoir des notifications par SMS</label>
-                <input type="number" id="number" name="user_number" placeholder="Entrez votre numéro de téléphone">
+                <p><input type="number" id="number" name="user_number" placeholder="Entrez votre numéro de téléphone"></p>
+            </div>
+            <div>
+                <p><input type="submit" value="Soumettre"></p>
             </div>
         </form>
     </section>
-    <!-- <section>
-        <h1>So api
+    <section class="partage">
+        <h1>Partager notre <br>Carte de visite digitale</h1>
+        <p>Scannez-moi</p>
+        <img class="qr" src="/imageCard/QRCode.svg" alt="">
+        <p>Partagez-moi</p>
+
+        <div class="groupe-icone">
+            <img class="second-sms" src="/imageCard/SMS.svg" alt="">
+            <img class="second-mail" src="/imageCard/mail.svg" alt="">
+            <img class="second-facebook" src="/imageCard/facebook.svg" alt="">
+        </div>
+        
     </section>
-    <section>
-        <h1>So api
-    </section> -->
+    <section class="visite">
+        <h1>Nous rendre visite</h1>
+        <p>21 rue Edouard Branly</p>
+        <p>62 500 Saint-Omer</p>
+
+        
+            <p class="lundi">Lundi au Jeudi 9h-12h/14h-18h</p>
+            <p class="vendredi">Vendredi 9h-12h</p>
+        
+
+        <img src="/imageCard/Maps.svg" alt="">
+
+        <a class="bouton-maps" href="http://www.so-api.com" target="_blank">Demander l'itinéraire</a>
+    </section>
 
     <script src="script.js"></script>
 </body>
