@@ -30,7 +30,7 @@ h1{
 // ----------------------------
 
 
-.premierePage {
+#premierePage {
     background-image: url(/imageCard/fondPremiereSection.jpg);
     display: flex;
     height: 934px;
@@ -54,11 +54,25 @@ nav{
 
     .menu{
         display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
 
         ul {
             list-style: none;
-    
+            text-align: center;
+            // background-color: rgba(53, 51, 83, 1);
+            background-image: url(/imageCard/fondPremiereSection.jpg);
+
+                li{
+                    padding: 57px;
+                }
                 a {
+                    font-weight: 700;
+                    font-size: 25px;
+                    line-height: 40px;
                     text-decoration: none;
                     color: white;
                 }
@@ -161,7 +175,7 @@ nav{
 // ----------A Propos----------
 // ----------------------------
 
-.propos {
+#propos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -224,7 +238,7 @@ nav{
 // ----------------------------
 
 
-.services {
+#services {
     
     h1{
         margin: 60px 0 50px 0;
@@ -269,7 +283,7 @@ nav{
 // --------Nouveautés----------
 // ----------------------------
 
-.nouveaute{
+#nouveaute{
     background-color: $couleurFond;
     display: flex;
     justify-content: center;
@@ -300,7 +314,7 @@ nav{
 // --------Newletters----------
 // ----------------------------
 
-.newletter{
+#newletter{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -339,7 +353,7 @@ input::placeholder {
 	text-align: center; 
 }
 
-.newletter input[type=submit] {
+#newletter input[type=submit] {
     width: 351px;
     height: 60px;
     margin: 230px 0 137px 0;
@@ -355,7 +369,7 @@ input::placeholder {
 // ---------Partage------------
 // ----------------------------
 
-.page-partage{
+#page-partage{
     background-color: $couleurFond;
     display: flex;
     justify-content: center;
@@ -402,7 +416,7 @@ input::placeholder {
 // ---------Visite------------
 // ----------------------------
 
-.visite{
+#visite{
     display: flex;
     justify-content: center;
     flex-direction: column;

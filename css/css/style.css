@@ -16,7 +16,7 @@ h1 {
   font-weight: 600;
   font-size: 36px; }
 
-.premierePage {
+#premierePage {
   background-image: url(/imageCard/fondPremiereSection.jpg);
   display: flex;
   height: 934px;
@@ -32,10 +32,22 @@ nav {
   display: flex;
   justify-content: space-between; }
   nav .menu {
-    display: none; }
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    flex-direction: column; }
     nav .menu ul {
-      list-style: none; }
+      list-style: none;
+      text-align: center;
+      background-image: url(/imageCard/fondPremiereSection.jpg); }
+      nav .menu ul li {
+        padding: 57px; }
       nav .menu ul a {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 40px;
         text-decoration: none;
         color: white; }
   nav img {
@@ -109,20 +121,20 @@ nav {
 .icone .facebook, .carte, .partage {
   margin-top: 51px; }
 
-.propos {
+#propos {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
-  .propos h1 {
+  #propos h1 {
     margin: 60px 0 50px 0; }
-  .propos .detail {
+  #propos .detail {
     width: 100%;
     color: #707078;
     font-size: 19px;
     margin: 72px 0 89px 0;
     padding: 0 41px;
     text-align: center; }
-  .propos .lien-tripadvisor {
+  #propos .lien-tripadvisor {
     text-align: center;
     width: 100%;
     margin-bottom: 21px; }
@@ -153,11 +165,11 @@ nav {
   border-radius: 60px;
   border: 2px solid #55ABB7; }
 
-.services h1 {
+#services h1 {
   margin: 60px 0 50px 0;
   width: 100%;
   text-align: center; }
-.services p {
+#services p {
   width: 100%;
   color: #707078;
   font-size: 20px;
@@ -182,15 +194,15 @@ nav {
 .gauche {
   margin-right: 29px; }
 
-.nouveaute {
+#nouveaute {
   background-color: #353353;
   display: flex;
   justify-content: center;
   flex-direction: column; }
-  .nouveaute h1 {
+  #nouveaute h1 {
     color: white;
     margin: 60px 0 15px 0; }
-  .nouveaute p {
+  #nouveaute p {
     color: white;
     padding: 0 70px;
     text-align: center;
@@ -203,15 +215,15 @@ nav {
   align-self: center;
   margin: 59px 0 254px 0; }
 
-.newletter {
+#newletter {
   display: flex;
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap; }
-  .newletter h1 {
+  #newletter h1 {
     margin: 60px 0 64px 0;
     padding: 0 42px; }
-  .newletter p {
+  #newletter p {
     text-align: center; }
 
 label {
@@ -232,7 +244,7 @@ label {
 input::placeholder {
   text-align: center; }
 
-.newletter input[type=submit] {
+#newletter input[type=submit] {
   width: 351px;
   height: 60px;
   margin: 230px 0 137px 0;
@@ -243,16 +255,16 @@ input::placeholder {
   border-style: none;
   border-radius: 5px; }
 
-.page-partage {
+#page-partage {
   background-color: #353353;
   display: flex;
   justify-content: center;
   flex-direction: column; }
-  .page-partage h1 {
+  #page-partage h1 {
     color: white;
     margin: 60px 0 98px 0;
     padding: 0 31px; }
-  .page-partage p {
+  #page-partage p {
     color: white;
     font-size: 20px;
     padding: 0 76px;
@@ -277,13 +289,13 @@ input::placeholder {
 .second-facebook {
   margin: 0; }
 
-.visite {
+#visite {
   display: flex;
   justify-content: center;
   flex-direction: column; }
-  .visite h1 {
+  #visite h1 {
     margin: 60px 0 15px 0; }
-  .visite p {
+  #visite p {
     color: #707078;
     font-weight: 600;
     font-size: 20px;
