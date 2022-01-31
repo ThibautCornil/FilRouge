@@ -31,18 +31,16 @@ nav {
   padding: 0 30px;
   display: flex;
   justify-content: space-between; }
-
-nav ul {
-  list-style: none; }
-
-nav ul a {
-  text-decoration: none;
-  color: white;
-  display: none; }
-
-nav img {
-  height: 64px;
-  width: 153px; }
+  nav .menu {
+    display: none; }
+    nav .menu ul {
+      list-style: none; }
+      nav .menu ul a {
+        text-decoration: none;
+        color: white; }
+  nav img {
+    height: 64px;
+    width: 153px; }
 
 .cont-lignes {
   margin-top: 35px;
@@ -89,15 +87,14 @@ nav img {
   margin-bottom: 132px;
   padding: 0 30px;
   text-align: center; }
+  .presentation p {
+    font-weight: 400;
+    font-size: 26px; }
 
 .texte-presentation {
   font-weight: 400;
   font-size: 37px;
   margin-bottom: 19px; }
-
-.presentation p {
-  font-weight: 400;
-  font-size: 26px; }
 
 .icone {
   width: 428px;
@@ -116,22 +113,19 @@ nav img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
-
-.propos h1 {
-  margin: 60px 0 50px 0; }
-
-.propos .detail {
-  width: 100%;
-  color: #707078;
-  font-size: 19px;
-  margin: 72px 0 89px 0;
-  padding: 0 41px;
-  text-align: center; }
-
-.propos .lien-tripadvisor {
-  text-align: center;
-  width: 100%;
-  margin-bottom: 21px; }
+  .propos h1 {
+    margin: 60px 0 50px 0; }
+  .propos .detail {
+    width: 100%;
+    color: #707078;
+    font-size: 19px;
+    margin: 72px 0 89px 0;
+    padding: 0 41px;
+    text-align: center; }
+  .propos .lien-tripadvisor {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 21px; }
 
 .footer {
   width: 100%;
@@ -163,7 +157,6 @@ nav img {
   margin: 60px 0 50px 0;
   width: 100%;
   text-align: center; }
-
 .services p {
   width: 100%;
   color: #707078;
@@ -180,28 +173,28 @@ nav img {
 .composant {
   width: 180px;
   height: 209px;
-  margin: 0 29px 44px 0; }
+  align-self: center;
+  margin-bottom: 44px; }
+  .composant img {
+    width: 180px;
+    height: 180px; }
 
-.composant img {
-  margin-right: 29px;
-  width: 180px;
-  height: 180px; }
+.gauche {
+  margin-right: 29px; }
 
 .nouveaute {
   background-color: #353353;
   display: flex;
   justify-content: center;
   flex-direction: column; }
-
-.nouveaute h1 {
-  color: white;
-  margin: 60px 0 15px 0; }
-
-.nouveaute p {
-  color: white;
-  padding: 0 70px;
-  text-align: center;
-  width: 100%; }
+  .nouveaute h1 {
+    color: white;
+    margin: 60px 0 15px 0; }
+  .nouveaute p {
+    color: white;
+    padding: 0 70px;
+    text-align: center;
+    width: 100%; }
 
 .image-nouveaute {
   background-color: #fff;
@@ -215,18 +208,16 @@ nav img {
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap; }
+  .newletter h1 {
+    margin: 60px 0 64px 0;
+    padding: 0 42px; }
+  .newletter p {
+    text-align: center; }
 
 label {
   text-align: center;
   display: block;
   font-weight: 600; }
-
-.newletter h1 {
-  margin: 60px 0 64px 0;
-  padding: 0 42px; }
-
-.newletter p {
-  text-align: center; }
 
 #email, #number {
   text-align: center;
@@ -252,23 +243,21 @@ input::placeholder {
   border-style: none;
   border-radius: 5px; }
 
-.partage {
+.page-partage {
   background-color: #353353;
   display: flex;
   justify-content: center;
   flex-direction: column; }
-
-.partage h1 {
-  color: white;
-  margin: 60px 0 98px 0;
-  padding: 0 31px; }
-
-.partage p {
-  color: white;
-  font-size: 20px;
-  padding: 0 76px;
-  text-align: center;
-  width: 100%; }
+  .page-partage h1 {
+    color: white;
+    margin: 60px 0 98px 0;
+    padding: 0 31px; }
+  .page-partage p {
+    color: white;
+    font-size: 20px;
+    padding: 0 76px;
+    text-align: center;
+    width: 100%; }
 
 .qr {
   width: 310px;
@@ -292,15 +281,13 @@ input::placeholder {
   display: flex;
   justify-content: center;
   flex-direction: column; }
-
-.visite h1 {
-  margin: 60px 0 15px 0; }
-
-.visite p {
-  color: #707078;
-  font-weight: 600;
-  font-size: 20px;
-  align-self: center; }
+  .visite h1 {
+    margin: 60px 0 15px 0; }
+  .visite p {
+    color: #707078;
+    font-weight: 600;
+    font-size: 20px;
+    align-self: center; }
 
 .lundi {
   margin-top: 15px; }
@@ -308,9 +295,7 @@ input::placeholder {
 .vendredi {
   margin-bottom: 40px; }
 
-.visite img {
-  width: 340px;
-  height: 340px;
+iframe {
   align-self: center; }
 
 .bouton-maps {
@@ -328,5 +313,9 @@ input::placeholder {
   background-color: #55ABB7;
   border-style: none;
   border-radius: 5px; }
+
+@media screen and (min-width: 610px) {
+  .composant {
+    margin: 0 29px 44px 0; } }
 
 /*# sourceMappingURL=style.css.map */
