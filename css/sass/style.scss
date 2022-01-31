@@ -62,12 +62,13 @@ nav{
 
         ul {
             list-style: none;
-            text-align: center;
-            // background-color: rgba(53, 51, 83, 1);
-            background-image: url(/imageCard/fondPremiereSection.jpg);
+            text-align: center;            
+            background:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(/imageCard/fondPremiereSection.jpg);
+
 
                 li{
                     padding: 57px;
+                    border: 1px solid white ;
                 }
                 a {
                     font-weight: 700;
