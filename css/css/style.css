@@ -210,7 +210,10 @@ nav {
     width: 100%; }
 
 .image-nouveaute {
-  background-color: #fff;
+  background-image: url(/imageCard/so-api-nouveaute-location-borne-selfie.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   width: 380px;
   height: 380px;
   align-self: center;
