@@ -472,3 +472,10 @@ iframe{
         margin: 0 29px 44px 0;
     }
 }
+
+@media screen and (max-width:400px) {
+    .image-nouveaute{
+        width: 250px;
+        height: 250px;
+    }
+}
