@@ -31,7 +31,7 @@ h1{
 
 
 #premierePage {
-    background-image: url(imageCard/fondPremiereSection.jpg);
+    background-image: url(/imageCard/fondPremiereSection.jpg);
     display: flex;
     height: 934px;
     flex-wrap: wrap;
@@ -63,7 +63,7 @@ nav{
         ul {
             list-style: none;
             text-align: center;            
-            background:linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(imageCard/fondPremiereSection.jpg);
+            background:linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(/imageCard/fondPremiereSection.jpg);
 
 
                 li{
@@ -304,7 +304,7 @@ nav{
 }
 
 .image-nouveaute{
-    background-image: url(imageCard/so-api-nouveaute-location-borne-selfie.png);
+    background-image: url(/imageCard/so-api-nouveaute-location-borne-selfie.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
